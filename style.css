@@ -1,0 +1,49 @@
+body{
+    margin:0px;
+    padding: 0px;
+}
+img{
+    width:30px;
+}
+#checkbox{
+    display: none;
+}
+#checkbox:checked+.container{
+    transform: translateX(400px) translateY(0px)
+    
+}
+.container{
+    width:200px;
+    height:400px;
+    background-color: deeppink;
+    position: absolute;
+    left:-300px;
+    transition:all 2s ease-in;
+    border-radius: 0px 10px 10px 0px;
+}
+.item{
+    margin: 35px;
+    border: 2px solid lightgoldenrodyellow;
+    background-color: cyan;
+    padding: 10px;
+    border-radius: 10px;
+}
+.item:hover{
+    background-color: aquamarine;
+    color: lightcoral;
+    text-shadow: 2px 2px 4px lightslategrey;
+}
+.item:hover{
+    background-color: lightskyblue;
+    text-shadow : 2px 2px 4px ;
+}
+.item:hover{
+    background-color: limegreen;
+    color: green;
+    text-shadow: 2px 2px 4px lightseagreen;
+}
+.item:hover{
+    background-color: lawngreen;
+    color:black;
+    text-shadow: 2px 2px 4px ;
+}
